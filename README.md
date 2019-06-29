@@ -8,7 +8,7 @@ To create a executable that finds smallest amount of steps to get N ants from A 
 ./lem_in < map
 ```
 
-### Prerequisites
+## Prerequisites
 The **map** file's structure is as follows
 ```
 number of ants
@@ -49,7 +49,7 @@ This results in the following map
       |   /
      [end]
 ```
-### Finding the solution
+## Finding the solution
 After running
 ```
 ./lem-in < map

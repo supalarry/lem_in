@@ -42,11 +42,11 @@ end-6
 This results in the following map
 ```
   [start]
-  /  |
-[3] [1]--[5]
- /   |    |
-[4]--[2] [6]
-      |  /
+   /  |
+ [3] [1]--[5]
+ /    |    |
+[4]--[2]  [6]
+      |   /
      [end]
 ```
 ### Finding the solution
@@ -62,3 +62,4 @@ L1-2 L2-4 L3-6 L4-5
 L1-end L2-2 L3-end L4-6
 L2-end L4-end
 ```
+The answer follows structure Lx-y where x is number of ant and y is name of room ant is heading to.

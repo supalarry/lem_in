@@ -15,11 +15,26 @@ number of ants
 rooms room_coordinate_x room_coordinate_y
 connections
 ```
+Notably, there needs to be a starting room indicated by ##start and ending room indicated by ##end.
 ```
-10
-A 10 20
-B 30 40
-C 50 60
-A-B
-B-C
+4
+3 2 2
+##start
+start 4 0
+##end
+end 4 6
+4 0 4
+1 4 2
+2 4 4
+5 8 2
+6 8 4
+start-1
+3-4
+2-4
+1-5
+6-5
+end-6
+1-2
+2-end
+3-start
 ```

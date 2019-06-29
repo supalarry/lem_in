@@ -12,7 +12,8 @@ lem_in < map
 The **map** file's structure is as follows
 ```
 number of ants
-rooms room_coordinate_x room_coordinate_y
+room_1 room_coordinate_x room_coordinate_y
+room_N room_coordinate_x room_coordinate_y
 connections
 ```
 Notably, there needs to be a starting room indicated by ##start and ending room indicated by ##end.
@@ -37,4 +38,14 @@ end-6
 1-2
 2-end
 3-start
+```
+This results in the following map
+```
+  [start]
+  /  |
+[3] [1]--[5]
+ /   |    |
+[4]--[2] [6]
+      |  /
+     [end]
 ```

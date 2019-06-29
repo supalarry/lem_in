@@ -5,7 +5,7 @@ Lem_in is a project involving shortest path problem. It is about moving N amount
 To create a executable that finds smallest amount of steps to get N ants from A to B, run **make** in root folder to get executable called **lem_in**. The executable receives input file to start solving it.
 
 ```
-lem_in < map
+./lem_in < map
 ```
 
 ### Prerequisites
@@ -48,4 +48,17 @@ This results in the following map
 [4]--[2] [6]
       |  /
      [end]
+```
+### Finding the solution
+After running
+```
+./lem-in < map
+```
+the solution is found to be a combination of path start-3-4-2-end and start-1-5-6-end
+```
+L1-3 L3-1
+L1-4 L2-3 L3-5 L4-1
+L1-2 L2-4 L3-6 L4-5
+L1-end L2-2 L3-end L4-6
+L2-end L4-end
 ```

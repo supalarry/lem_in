@@ -15,7 +15,7 @@ author [my username]
 ```
 
 ## Getting Started
-To create a executable that finds smallest amount of steps to get N ants from A to B, run **make** in root folder to get executable called **lem_in**. The executable receives input file to start solving it.
+To create an executable that finds smallest amount of steps to get N ants from A to B, run **make** in root folder to get executable called **lem_in**. The executable receives input file to start solving it.
 
 ```
 ./lem_in < map

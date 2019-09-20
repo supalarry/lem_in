@@ -22,7 +22,7 @@ To create a executable that finds smallest amount of steps to get N ants from A 
 ```
 
 ## Prerequisites
-The **map's** file's structure is as follows
+The **map** file's structure is as follows
 ```
 number of ants
 room_1 room_coordinate_x room_coordinate_y

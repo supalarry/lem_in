@@ -6,12 +6,12 @@ Lem_in is a project involving shortest path problem. It is about moving N amount
 lem_in
 ├── includes [header file for project]
 ├── libft [my library with various functions]
-└── srcs [sources of the project]
-    ├── input [sources for creating hashtable from input]
-    ├── output [sources for printing steps that ants take]
-    ├── solver [sources for path finding and saving combination of paths]
+└── srcs [source files of the project]
+    ├── input [source files for creating hashtable from input]
+    ├── output [source files for printing steps that ants take]
+    ├── solver [source files for path finding and saving combination of paths]
 Makefile [compiles the project]
-author [my and my teammate's usernames]
+author [my username]
 ```
 
 ## Getting Started
@@ -76,13 +76,3 @@ L1-end L2-2 L3-end L4-6
 L2-end L4-end
 ```
 The answer follows structure Lx-y where x is number of ant and y is name of room ant is heading to.
-In this case we had 4 ants, as informed by very first number in input file. On the other hand,
-if we had, for example, 2 ants, we would choose the middle path [start] - [1] - [2] - [end] as a solution
-to let in both ants. Thus, the answer would be
-
-```
-L1-1
-L1-2 L2-1
-L1-end L2-2
-L2-end
-```

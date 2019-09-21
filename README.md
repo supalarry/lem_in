@@ -11,7 +11,7 @@ lem_in
     ├── output [source files for printing steps that ants take]
     ├── solver [source files for path finding and saving combination of paths]
 Makefile [compiles the project]
-author [my username]
+author [my and my teammate's username]
 ```
 
 ## Getting Started
@@ -76,3 +76,14 @@ L1-end L2-2 L3-end L4-6
 L2-end L4-end
 ```
 The answer follows structure Lx-y where x is number of ant and y is name of room ant is heading to.
+In this case we had 4 ants, as informed by very first number in input file. On the other hand,
+if we had, for example, 2 ants, we would choose the middle path [start] - [1] - [2] - [end] as a solution
+to let in both ants. Thus, the answer would be
+
+```
+L1-1
+L1-2 L2-1
+L1-end L2-2
+L2-end
+```
+

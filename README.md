@@ -1,5 +1,5 @@
 # Lem_in
-Lem_in is a project involving shortest path problem. It is about moving N amount of ants from a specific start room to a specific end room. Antfarm consists of many rooms and each room can be connected to unlimited amount of other rooms. Notably, while ants are being moved only one ant at a time can be within a room. The solution consists of finding paths that result in least amount of steps required to move all ants from start to end. Step is defined as moving all ants that have free next room in their path at the same time. This algorithm has been tested with up to 3,000 connected rooms.
+Lem_in is a project involving shortest path problem. It is about moving N amount of ants from a specific start room to a specific end room. Antfarm consists of many rooms and each room can be connected to unlimited amount of other rooms. Notably, while ants are being moved only one ant at a time can be within a room. The solution consists of finding paths that result in least amount of steps required to move all ants from start to end. Step is defined as moving all ants that have free next room in their path at the same time. This algorithm has been tested with up to 3,000 connected rooms. 
 
 ## Project folder structure
 ```

@@ -11,7 +11,7 @@ lem_in
     ├── output [source files for printing steps that ants take]
     ├── solver [source files for path finding and saving combination of paths]
 Makefile [compiles the project]
-author [my and my teammate's username]
+author [my and my teammate's usernames]
 ```
 
 ## Getting Started
